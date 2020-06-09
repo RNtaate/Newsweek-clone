@@ -6,6 +6,10 @@
     -moz-box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .highlight {
     background-color: #F72210;
 }
@@ -29,4 +33,44 @@ button.nav-button {
 i.fa-user,
 i.fa-bars {
     font-size: 1.5em;
+}
+
+h6.text-muted {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+div.card,
+img.img-fluid {
+    border-radius: 0;
+    border: none;
+}
+
+.article-img-link {
+    position: relative;
+}
+
+.article-img-link > span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #F72210;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-weight: bold;
+    display: inline;
+}
+
+.card-title > a {
+    color: black;
+}
+
+.card-title > a:hover {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid red;
 }
