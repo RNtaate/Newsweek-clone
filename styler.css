@@ -114,6 +114,15 @@ main.container-fluid {
     color: black;
 }
 
+a.debate-span:hover {
+    text-decoration: none;
+    color: #F92859;
+}
+
+a.debate-span:hover > span {
+    color: black;
+}
+
 .vs-span {
     background-color: black;
     font-weight: bold;
