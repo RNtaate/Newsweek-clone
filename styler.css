@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F4F5F7;
 }
 
 .bg-highlight {
@@ -59,7 +60,6 @@ img.img-fluid {
     position: absolute;
     bottom: 0;
     left: 0;
-    /* color: #F72210; */
     background-color: rgba(255, 255, 255, 0.9);
     padding: 8px 15px;
 }
@@ -118,6 +118,14 @@ a.debate-span:hover > span {
     transform: translate(-50%, -50%);
 }
 
+.overflow-div {
+    overflow: hidden;
+}
+
+.overflow-div > p {
+    font-size: 0.9em;
+}
+
 .article-img-link > span.text-dark {
     background-color: #C2D4D7;
     font-size: 0.8em;
@@ -127,9 +135,13 @@ div.sign-div {
     max-width: 320px;
 }
 
-div.sign-div  img {
+div.sign-div > div > img {
     width: 3.8em;
     height: auto;
+}
+
+.small-logo-img {
+    width: 30px;
 }
 
 input.form-control::placeholder {
