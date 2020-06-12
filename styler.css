@@ -105,6 +105,7 @@ main.container-fluid {
 a.debate-span:hover {
     text-decoration: none;
     color: #F92859;
+    border:none;
 }
 
 a.debate-span:hover > span {
