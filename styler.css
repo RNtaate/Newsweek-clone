@@ -23,6 +23,10 @@ body {
     color: black;
 }
 
+.bg-container {
+    background-color: #F4F5F7;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -149,4 +153,45 @@ input.form-control::placeholder {
     color: rgba(30, 30, 30, 0.3);
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1em;
+}
+
+.inner-img-div {
+    max-width: 260px;
+    position: relative;
+}
+
+.pic2 {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.footer_logo {
+    width: 15em;
+    filter: invert(23%) sepia(72%) saturate(4648%) hue-rotate(353deg) brightness(95%) contrast(104%);
+}
+
+span.copyright-span {
+    font-size: 0.85em;
+}
+
+.footer-icons-div {
+    font-size: 1.5em;
+}
+
+.footer-icons-div > a {
+    color: #555;
+}
+
+.footer-icons-div > a:hover {
+    color: #3581F4;
+}
+
+.footer-links-div > a {
+    color: #888;
+}
+
+.footer-links-div > a:hover {
+    text-decoration: none;
+    color: black;
 }
