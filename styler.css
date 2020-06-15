@@ -195,3 +195,29 @@ span.copyright-span {
     text-decoration: none;
     color: black;
 }
+
+@media only screen and  (min-width: 768px) {
+    
+    div.subscribe-aside-div {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+    }
+
+    .newsletter-div {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+    }
+
+    .newsletter-img {
+        background-image: url("images/newsletter.png");
+        background-position-x: center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .aside-newsletter > .newsletter-div {
+        flex: 1;
+    }
+}
