@@ -44,10 +44,13 @@ div.nav-item {
     font-size: 0.8em;
 }
 
-button.nav-button {
-    font-size: 0.9em;
+nav button.btn {
     border-radius: 20px;
     background-color: #ffe400;
+}
+
+button.nav-button {
+    font-size: 0.9em;
 }
 
 i.fa-user,
@@ -132,8 +135,10 @@ a.debate-span:hover > span {
     overflow: hidden;
 }
 
-.overflow-div > p {
+.overflow-div > p,
+section.mainsec-2 .card-text {
     font-size: 0.9em;
+    /* color: red; */
 }
 
 .article-img-link > span.text-dark {
@@ -141,7 +146,8 @@ a.debate-span:hover > span {
     font-size: 0.8em;
 }
 
-div.sign-div {
+div.sign-div,
+.sec-3 div.card {
     max-width: 320px;
 }
 
@@ -203,12 +209,13 @@ span.copyright-span {
 
 @media only screen and  (min-width: 768px) {
 
-    div.editor-div > .article-img-link {
-        height: 20vw;
+    body,
+    main.container-fluid {
+        background-color: white;
     }
 
-    div.editor-div > .article-img-link > img {
-        height: 100%;
+    div.editor-div > .article-img-link {
+        height: 24vw;
     }
 
     div.magazine-div > div.editor-div:nth-child(2) > .article-img-link {
@@ -246,7 +253,7 @@ span.copyright-span {
 }
 
 @media only screen and (min-width: 992px) {
-    
+
     .aside-newsletter > .newsletter-div {
         flex: 1;
     }
