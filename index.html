@@ -21,17 +21,88 @@
   </head>
   <body>
     <header class="container-fluid mx-0 px-0 sticky-top">
-      <nav class="navbar nav-expand-sm bg-highlight py-0 px-3 sticky-top">
+      <nav class="navbar nav-expand-sm bg-highlight py-2 px-3 sticky-top d-lg-none">
           <div class="container-fluid d-flex p-0 justify-content-between align-middle text-light">
-              <img src="images/news1.png" alt="logo" class="nav-item align-middle">
-              <div class="nav-item">
-                  <span class="d-none d-md-inline">LOGIN</span>
-                  <i class="fas fa-user mr-1 align-middle text-white-50 d-md-none"></i>
-                  <button class="btn btn-sm nav-button mr-1 align-middle font-weight-bolder"><span class="text-black font-weight-bold">SUBSCRIBE </span><i class="fas fa-greater-than" ></i></button>
-                  <i class="fas fa-bars align-middle text-white-50"></i>
+              <img src="images/newsweek_ult.png" alt="logo" class="nav-item align-middle">
+              <div class="nav-item md-login-div d-flex align-items-center">
+                  <span class="d-none d-md-inline mr-4 font-weight-bold">LOGIN</span>
+                  <i class="fas fa-user mr-2 text-white-50 d-md-none"></i>
+                  <button class="btn btn-sm nav-button mr-1 font-weight-bolder py-1 py-md-0 px-2 px-md-3"><span class="text-black font-weight-bold">SUBSCRIBE </span><i class="fas fa-greater-than" ></i></button>
+                  <i class="fas fa-bars align-middle text-white-50 ml-md-3"></i>
               </div>
           </div>
       </nav>
+
+      <nav class="container-fluid mx-0 px-4 bg-highlight sticky-top d-none d-lg-flex justify-content-between py-3">
+
+        <div class="left-nav-div d-flex flex-column justify-content-between">
+          <span class="text-white font-weight-bold"><i class="fas fa-cloud-moon"></i>   24° Kampala District, UG <i class="fas fa-greater-than" ></i></span>
+
+          <span class="text-white">Tue, Jun 16, 2020</span>
+
+        </div>
+
+        <img src="images/newsweek_ult.png" alt=" " class="nav-lg-logo">
+
+        <div class="right-nav-div d-flex justify-content-end align-items-end">
+
+          <div class="inner-right-nav-div">
+            <span class="font-weight-bold text-white mr-4">LOGIN</span>
+
+            <button type="button" class="btn"><span class="text-black font-weight-bold rounded-pill px-2 py-0">SUBSCRIBE <i class="fas fa-greater-than" ></i></span></button>
+          </div>
+        </div>
+
+      </nav>
+
+      <nav class="list-nav container-fluid bg-white mx-0 d-none d-lg-flex align-items-center py-0 pt-3 pb-2 border-bottom justify-content-between navbar">
+
+        <a href="#" class="text-black font-weight-bold"><span>U.S</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>World</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>Business</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>Tech & Science</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>Culture</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>Newsgeek</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>Sports</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>Health</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>The Debate</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>Vantage</span></a>
+
+        <span class="seperator"></span>
+
+        <a href="#" class="text-black font-weight-bold"><span>Weather</span></a>
+
+       <span><input type="text" placeholder="Search" class="border-0"><i class="fas fa-search"></i></span>
+
+      </nav>
+
     </header>
 
       <main class="container-fluid p-0">
@@ -40,9 +111,9 @@
           Upper main element div element for medium and large screens
         #################################################################-->
 
-        <div class="res-div d-sm-none d-md-flex flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-around mx-0">
+        <div class="res-div d-none d-md-flex flex-md-wrap flex-lg-nowrap justify-content-md-center justify-content-lg-around mx-0">
 
-          <div class="topstory-div col-12 col-md-7 order-2 mx-0 px-md-0 col-lg-6 middle-div">
+          <div class="topstory-div col-12 col-md-7 order-2 mx-0 px-md-0 col-lg-5 middle-div">
             <article class="container-fluid my-0 py-4 px-3 top-story bg-white">
               <h6 class="text-muted font-weight-bolder">TOP STORY</h6>
               <div class="card">
@@ -187,7 +258,7 @@
             </section>
           </div>
 
-          <div class="featured-story-div col-12 col-md-5 order-1 mx-0 px-md-0 col-lg-3 left-div">
+          <div class="featured-story-div col-12 col-md-5 order-1 mx-0 px-md-0 col-lg left-div">
 
             <section class="sec-1 container-fluid mt-4 mt-md-0 mb-0 py-4 px-3 bg-white">
               <h6 class="text-muted font-weight-bolder">FEATURED STORIES</h6>
@@ -270,7 +341,7 @@
 
           </div>
 
-          <div class="debate-side-div col-md-12 order-3 px-md-0 col-lg-3 right-div">
+          <div class="debate-side-div col-md-12 order-3 px-md-0 col-lg right-div">
             <section class="sec-2 container-fluid mt-0 mb-0 py-4 pb-0 px-3 bg-white debate-section">
 
               <h6 class="text-muted font-weight-bolder">THE DEBATE</h6>

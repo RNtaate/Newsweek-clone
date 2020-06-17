@@ -40,6 +40,11 @@ img.nav-item {
     width: 8.5em;
 }
 
+img.nav-lg-logo,
+img.nav-item {
+    filter: invert(100%) sepia(96%) saturate(16%) hue-rotate(266deg) brightness(103%) contrast(106%);
+}
+
 div.nav-item {
     font-size: 0.8em;
 }
@@ -56,6 +61,40 @@ button.nav-button {
 i.fa-user,
 i.fa-bars {
     font-size: 1.5em;
+}
+
+.list-nav {
+    padding-right: 70px;
+}
+
+.list-nav::before {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    content: "";
+    display: block;
+    width: 70px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+}
+
+.list-nav a {
+    font-size: 1.2em;
+}
+
+.list-nav a:hover {
+    text-decoration: none;
+    color: #F72210;
+}
+
+.list-nav .seperator::after {
+    content: "";
+    border-left: 1px solid lightgray;
+}
+
+.list-nav input {
+    width: 50px;
 }
 
 div.card,
@@ -146,9 +185,8 @@ section.mainsec-2 .card-text {
     font-size: 0.8em;
 }
 
-div.sign-div,
-.sec-3 div.card {
-    max-width: 320px;
+div.sign-div {
+    max-width: 300px;
 }
 
 div.sign-div > div > img {
@@ -214,6 +252,24 @@ span.copyright-span {
         background-color: white;
     }
 
+    .md-login-div button{
+        font-size: 1.5em;
+        /* padding: 0 15px; */
+    }
+
+    .md-login-div  span.mr-4 {
+        font-size: 1.5em;
+    }
+
+    .md-login-div .text-white-50 {
+        font-size: 2.3em;
+        /* margin-left: 15px; */
+    }
+
+    .sec-3 div.card {
+        max-width: 330px;
+    }
+
     div.editor-div > .article-img-link {
         height: 24vw;
     }
@@ -253,6 +309,10 @@ span.copyright-span {
 }
 
 @media only screen and (min-width: 992px) {
+
+    .sec-3 div.card {
+        max-width: inherit;
+    }
 
     .aside-newsletter > .newsletter-div {
         flex: 1;
