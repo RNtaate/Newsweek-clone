@@ -11,6 +11,15 @@ body {
     background-color: #F4F5F7;
 }
 
+main.holding-container {
+    max-width: 1250px;
+}
+
+h2.hide {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+}
+
 .bg-highlight {
     background-color: #F72210;
 }
@@ -55,12 +64,16 @@ nav button.btn {
 }
 
 button.nav-button {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 i.fa-user,
 i.fa-bars {
     font-size: 1.5em;
+}
+
+.login-a:hover {
+    text-decoration: none;
 }
 
 .list-nav {
@@ -115,7 +128,7 @@ img.img-fluid {
     padding: 8px 15px;
 }
 
-main.container-fluid {
+div.main-div {
     background-color: #F4F5F7;
 }
 
@@ -248,22 +261,16 @@ span.copyright-span {
 @media only screen and  (min-width: 768px) {
 
     body,
-    main.container-fluid {
+    div.main-div {
         background-color: white;
     }
 
-    .md-login-div button{
-        font-size: 1.5em;
-        /* padding: 0 15px; */
-    }
-
-    .md-login-div  span.mr-4 {
+    .md-login-div button {
         font-size: 1.5em;
     }
 
     .md-login-div .text-white-50 {
         font-size: 2.3em;
-        /* margin-left: 15px; */
     }
 
     .sec-3 div.card {
